@@ -6,11 +6,11 @@ class Word {
   String englishExample;
   String kashmiriExample;
   Word({
-    this.title,
-    this.pos,
-    this.englishMeaning,
-    this.kashmiriMeaning,
-    this.englishExample,
-    this.kashmiriExample,
+    this.title = '',
+    this.pos = '',
+    this.englishMeaning = '',
+    this.kashmiriMeaning = '',
+    this.englishExample = '',
+    this.kashmiriExample = '',
   });
 }
