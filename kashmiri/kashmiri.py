@@ -1,4 +1,4 @@
-from database import data
+from kashmiri.database import data
 
 
 def find(word: str):
@@ -15,6 +15,7 @@ def find(word: str):
         elif key < word:
             start = mid + 1
         elif key == word:
-            return {k: data[mid][k] for k in ('title', 'pos', 'englishMeaning', 'kashmiriMeaning')}
+            # return {k: data[mid][k] for k in ('title', 'pos', 'englishMeaning', 'kashmiriMeaning')}
+            return data[mid]
 
-    return "Not Found"
+    print("Not Found")
