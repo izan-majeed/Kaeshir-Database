@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+kashmiri/__init__.py
+kashmiri/database.py
+kashmiri/kashmiri.py
+kashmiri.egg-info/PKG-INFO
+kashmiri.egg-info/SOURCES.txt
+kashmiri.egg-info/dependency_links.txt
+kashmiri.egg-info/top_level.txt
